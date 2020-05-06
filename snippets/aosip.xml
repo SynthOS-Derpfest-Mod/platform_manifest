@@ -19,6 +19,10 @@
            fetch="https://github.com/DerpLab"
            revision="refs/heads/ten" />
 
+  <remote  name="synth"
+           fetch="https://github.com/SynthOS-Derpfest-Mod"
+           revision="refs/heads/ten" />
+
   <remote  name="omni"
            fetch="https://github.com/omnirom"
            revision="refs/heads/android-10" />
@@ -29,7 +33,7 @@
   <project path="bionic" name="platform_bionic" remote="derp" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
   <project path="development" name="platform_development" remote="derp" />
-  <project path="manifest" name="DerpLab/platform_manifest" remote="github" revision="ten" />
+  <project path="manifest" name="SynthOS-Derpfest-Mod/platform_manifest" remote="github" revision="ten" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="derp" />
@@ -70,7 +74,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="synth" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="derp" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
@@ -126,14 +130,14 @@
   <project path="system/vold" name="platform_system_vold" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="derp" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="synth" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="derp" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
 
   <!-- DerpFest specific stuf -->
-  <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="derp" />
+  <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="synth" />
   <project path="packages/apps/OmniRecord" name="platform_packages_apps_OmniRecord" remote="derp" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="derp" />
   <project path="packages/apps/OpenDelta" name="platform_packages_apps_OpenDelta" remote="derp" />
