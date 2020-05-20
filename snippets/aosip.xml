@@ -52,7 +52,7 @@
   </project>
 
   <!-- Device -->
-  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="derp" />
+  <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="synth" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="derp" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="derp" revision="ten-legacy-um" />
@@ -105,14 +105,15 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="derp" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="derp" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="synth" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="derp" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="derp" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="synth" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="derp" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="derp" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="derp" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="derp" />
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="synth" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="derp" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="derp" />
 
@@ -136,11 +137,11 @@
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
 
-  <!-- DerpFest specific stuf -->
+  <!-- DerpFest and Synth specific stuf -->
   <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="synth" />
   <project path="packages/apps/OmniRecord" name="platform_packages_apps_OmniRecord" remote="derp" />
-  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="derp" />
-  <project path="packages/apps/OpenDelta" name="platform_packages_apps_OpenDelta" remote="derp" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="synth" />
+  <project path="packages/apps/OpenDelta" name="platform_packages_apps_OpenDelta" remote="synth" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="derp" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-6189010" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6189010" remote="github" revision="10.0" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
