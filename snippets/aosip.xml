@@ -142,7 +142,6 @@
 
   <!-- DerpFest and Synth specific stuf -->
   <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="synth" />
-  <project path="packages/apps/OmniRecord" name="platform_packages_apps_OmniRecord" remote="derp" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="synth" />
   <project path="packages/apps/OpenDelta" name="platform_packages_apps_OpenDelta" remote="synth" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="derp" clone-depth="1" />
